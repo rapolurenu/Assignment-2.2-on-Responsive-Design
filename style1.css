@@ -1,11 +1,9 @@
-/* Common styles for all screen sizes */
 .kidzworld {
     width: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
-    position: center;
+    position: absolute;
   }
-  
   .cartimage {
     width: 22px;
     height: 22px;
@@ -16,23 +14,20 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 40px;
+    height: 41px;
   }
-  
   #cart {
     display: flex;
     justify-content: center;
     width: 120px;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 19px;
   }
-  
   .p1 {
     font-size: 14px;
     margin-top: 55px;
     font-weight: bold;
   }
-  
   header {
     width: 100%;
     height: 400px;
@@ -41,27 +36,19 @@
     background-position: 100%;
     margin: auto;
   }
-  
-  .header-text {
+  .headerText{
     color: aliceblue;
     margin-left: 100px;
-    width: 150px;
+    width: 200px;
     padding: 40px;
   }
-  
-  .maindiv {
+  .main_container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 4px;
+    margin-top: 5px;
   }
-  
-  .addbutton1,
-  .addbutton2,
-  .addbutton3,
-  .addbutton4,
-  .addbutton5,
-  .addbutton6 {
+  .button_1 {
     display: flex;
     justify-content: space-around;
     height: 30px;
@@ -69,113 +56,138 @@
     background-color: rgb(60, 128, 239);
     border-radius: 3px;
   }
+  .button_2 {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(60, 128, 239);
+    border-radius: 3px;
+  }
+  .button_3 {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(60, 128, 239);
+    border-radius: 3px;
+  }
+  .button_4 {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(60, 128, 239);
+    border-radius: 3px;
+  }
+  .button_5 {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(60, 128, 239);
   
-  .imgadd {
+    border-radius: 3px;
+  }
+  .button_6 {
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    width: 60px;
+    background-color: rgb(60, 128, 239);
+    border-radius: 3px;
+  }
+  .img {
     width: 20px;
     margin-top: 8px;
     margin-left: 5px;
+    width: 20px;
     height: 17px;
   }
-  
-  .h61 {
+  .h_61 {
     margin-left: 7px;
     display: flex;
     align-self: center;
     font-size: 12px;
   }
-  
-  .rr,
-  .h61 {
+  .r_r,
+  .h_61 {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  
-  .ff {
+  .f_f {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 150px;
   }
-  
-  .games {
+  .gameS {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     width: 100%;
   }
-  
   .discover {
     margin-left: 55px;
   }
-  
   .new {
     margin-left: 35px;
   }
-  
-  .withlove {
+  .home{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
   }
-  
-  .homemade {
+  .homemade_with {
     margin-left: 45px;
   }
-  
-  .gg {
+  .m_m {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 150px;
   }
-  
-  .foot {
+  .footer {
     background-color: black;
   }
-  
-  .aa,
-  .xx {
+  .krishti,
+  .kalvi {
     color: whitesmoke;
   }
-  
   .krishtiimg {
     border-radius: 50%;
     margin-top: 30px;
     margin-left: 40px;
   }
-  
-  .yy {
+  .text {
     margin-left: 650px;
     margin-top: 50px;
     width: 400px;
     height: 150px;
   }
   
-  .tt {
+  .u_u {
     display: flex;
     justify-content: space-around;
   }
-  
-  .zz {
+  .with_love {
     color: whitesmoke;
     margin-top: 20px;
     margin-left: 60px;
   }
-  
-  .h61 {
+  .h_61 {
     color: white;
   }
-  
-  /* For screens smaller than 600px (mobile phones) */
-@media only screen and (max-width: 600px) {
+
+  @media only screen and (max-width: 600px) {
     .kidzworld {
-      margin-left: 10px;
+      margin-left: 12px;
     }
   
-    .header-text {
-      margin-left: 10px;
-      padding: 20px;
+    .headerText {
+      margin-left: 11px;
+      padding: 22px;
       overflow: auto;
       
     }
@@ -184,20 +196,20 @@
         text-align: center;
       }
 
-    .maindiv, .games, .withlove {
+    .main_container, .gameS, .home {
       flex-direction: column;
       align-items: center;
       width: 100%;
-      margin-bottom: 20px;
+      margin-bottom: 19px;
     }
     
   
-    .yy {
+    .text {
       margin-left: 10px;
       width: auto;
     }
   
-    .foot {
+    .footer {
       padding: 20px;
     }
   }
